@@ -2,7 +2,7 @@
   "name": "goit-react-hw-01-components",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Rost-Perig/goit-react-hw-01-components",
+  "homepage": "https://Rost-Perig.github.io/goit-react-hw-01-components",
   "author": "Rost Perig, rost.perig@gmail.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
