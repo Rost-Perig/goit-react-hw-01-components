@@ -1,0 +1,27 @@
+.table {
+  width: 480px;
+  background-color: rgb(196, 196, 196);
+  box-shadow: 0px 3px 8px 0px rgba(39, 39, 39, 0.411),
+    0px 2px 5px 0px rgba(61, 61, 61, 0.226),
+    0px 2px 3px -1px rgba(10, 10, 10, 0.137);
+}
+
+.tHeadCell {
+  padding: 10px 0;
+  background-color: slateblue;
+  color: rgb(247, 247, 247);
+}
+
+.tCellFirst {
+  padding: 8px 0 8px 100px;
+}
+
+.tCellSecond {
+  padding: 8px 36px 8px 0vw;
+  text-align: right;
+}
+
+.tCellLast {
+  padding: 8px 0;
+  text-align: center;
+}
