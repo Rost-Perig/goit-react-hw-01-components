@@ -5,12 +5,12 @@ import s from './Profile.module.css';
 /* =============карточка профиля============= */
 
 const Profile = ({ users }) => {
-    let { avatar, name, tag, location, stats: {followers, views, likes} } = users;
+    let { avatar = defaultImage, name = "NO DATA", tag = "NO DATA", location = "NO DATA", stats: {followers = "NO DATA", views = "NO DATA", likes = "NO DATA"} } = users;
     return (
         <div className={s.card}>
             <div className={s.imgFrame}>
                 <img className={s.img}
-                    src={avatar ? avatar : defaultImage}
+                    src={avatar}
                     alt={name}
                 />
             </div>    
